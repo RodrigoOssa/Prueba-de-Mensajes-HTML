@@ -1,0 +1,45 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(img2.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+.box {
+
+	margin: auto;
+	margin-top:4%;
+	margin-bottom: 5px;
+	width: 400px;
+	height: 350px;
+	border-radius: 5px;
+	background-color: gray;
+	opacity: 0.8;
+}
+.text{
+	text-decoration: none;
+	font-size: 23px;
+	font-family: sans-serif;
+	color: black;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	padding-top: 25px;
+}
+footer{
+	margin: 100px auto -10px auto; 
+	opacity: 0.8;
+	position: fixed;
+	height: 25px;
+	width: 100%;
+	background-color: darkgray;
+	display: inline-block;
+	z-index: 100;
+}
+.rodry{
+	color: darkred;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 1%;
+}

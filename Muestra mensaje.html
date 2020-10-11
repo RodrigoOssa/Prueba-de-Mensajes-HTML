@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Envia mensaje que ingrese</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css1.css">
+<script type="text/javascript">
+var mensaje = prompt("ingrese su mensaje");
+function mostrar () {
+	var el_div_ese = document.getElementById("caja");
+	return(el_div_ese.innerHTML += mensaje);
+};
+function sentencia () {
+if (mensaje === null || mensaje === "") {
+	console.log(document.getElementById("caja").innerHTML = "No se ha ingresado ningun dato!! >:C");
+}
+else {
+	console.log(mostrar());
+}
+};
+
+</script>
+</head>
+
+<body>
+	<div class="text box">
+		<div id="caja"> 
+			<script type="text/javascript">
+			sentencia();
+			</script>
+		</div>
+	</div>
+	<footer>By Rodry</footer>
+</body>
+</html>
